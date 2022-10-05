@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JavaScript Lab</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin For Fun</title>
 </head>
+<link rel="stylesheet" type="text/css" href="index.css">
 <body>
-  hello
+    <body>
+    <div class="grid-container">
+        <div id = "maindiv">
+        <div class="gradient-border">
+        <div class="gameInto">
+        <h1 id ="mainTitle">Michelle & Kade's Wheel of Fun</h1>
+    <h2 id ="mainDescription" style="color:rgb(33, 107, 171);">Do you need something fun to do?</h2>
+   <h3 id = "secondDescription">Click SPIN!</h3>
+    </div>
+    </div>
+       <div id ="page">
+        <div id="mainbox" class="mainbox">
+            <div id="box" class="box">
+                <div class="box1">
+                    <span id="wedge1" class="span1"><b>1</b></span>
+                    <span id="wedge2" class="span2"><b>2</b></span>
+                    <span id="wedge3" class="span3"><b>3</b></span>
+                    <span id="wedge4" class="span4"><b>4</b> </span>
+                </div>
+                <div class="box2">
+                    <span id="wedge5" class="span1"><b>5</b></span>
+                    <span id="wedge6" class="span2"><b>6</b></span>
+                    <span id="wedge7" class="span3"><b>7</b></span>
+                    <span id="wedge8" class="span4"><b>8</b></span>
+    
+                </div>
+            </div>
+            <button class="spin" onclick= "rotateFunction()"> SPIN</button>
+        </div>
+       </div>
+    </div>
+       <br>
+       <br>
+       <br>
+       <div id="footer">
+           <br>
+           <h1>What is everyone else doing?</h1>
+           <br>
+           <ul id="list">
+           </ul>
+       </div>
+    </div>
+       <script src="index.js"></script>
 </body>
 </html>
